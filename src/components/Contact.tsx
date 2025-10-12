@@ -22,7 +22,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Office',
-    value: '123 Creative Street, NY 10001',
+    value: 'Near Service Rd, NH Bye Pass, Padivattom, Edappally, Kochi, Ernakulam, Kerala 682024',
     link: '#map',
   },
 ];

@@ -47,15 +47,10 @@ export function About() {
               Crafting Stories That Resonate
             </h2>
             <p className="text-muted-foreground mb-6">
-              We are a full-service creative agency passionate about bringing brands to
-              life through innovative advertising campaigns, cutting-edge design, and
-              strategic marketing solutions.
+             At Talent Advertising, we bring creativity, quality, and precision together to make your brand stand out. With years of experience in flex printing, signage solutions, and visual branding, we specialize in turning your ideas into eye-catching displays that leave a lasting impression.
             </p>
             <p className="text-muted-foreground mb-8">
-              With over a decade of experience, our team of creative professionals has
-              helped hundreds of brands stand out in competitive markets. We believe in
-              the power of storytelling and data-driven strategies to create meaningful
-              connections between brands and their audiences.
+              Our mission is simple: to help your business attract attention, communicate effectively, and grow through powerful visual advertising.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

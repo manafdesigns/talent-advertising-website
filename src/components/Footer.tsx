@@ -28,7 +28,7 @@ export function Footer() {
               viewport={{ once: true }}
               className="text-3xl mb-4"
             >
-              CREATIVE<span className="text-white">.</span>
+              <img className="h-12 w-30" src="/logo_white.png" alt="" />
             </motion.h2>
             <p className="text-primary-foreground/70 mb-6">
               Transforming brands through creativity, innovation, and strategic thinking.

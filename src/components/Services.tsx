@@ -1,44 +1,44 @@
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
-import { Palette, Video, BarChart3, Megaphone, Globe, Lightbulb } from 'lucide-react';
+import { Palette, Megaphone } from 'lucide-react';
 
 const services = [
   {
     icon: Palette,
-    title: 'Brand Design',
-    description: 'Creating visual identities that capture your brand essence and resonate with your audience.',
+    title: 'Flex Printing',
+    description: 'High-quality flex printing solutions for vibrant and durable signage.',
     gradient: 'from-blue-500 to-cyan-500',
   },
-  {
-    icon: Video,
-    title: 'Video Production',
-    description: 'Cinematic storytelling that engages viewers and delivers your message with impact.',
-    gradient: 'from-purple-500 to-pink-500',
-  },
-  {
-    icon: BarChart3,
-    title: 'Digital Marketing',
-    description: 'Data-driven strategies to maximize ROI and grow your online presence.',
-    gradient: 'from-rose-500 to-red-600',
-  },
+  // {
+  //   icon: Video,
+  //   title: 'Video Production',
+  //   description: 'Cinematic storytelling that engages viewers and delivers your message with impact.',
+  //   gradient: 'from-purple-500 to-pink-500',
+  // },
+  // {
+  //   icon: BarChart3,
+  //   title: 'Digital Marketing',
+  //   description: 'Data-driven strategies to maximize ROI and grow your online presence.',
+  //   gradient: 'from-rose-500 to-red-600',
+  // },
   {
     icon: Megaphone,
-    title: 'Advertising Campaigns',
-    description: 'Compelling campaigns that cut through the noise and drive real results.',
+    title: 'Signboard Advertising',
+    description: 'Captivating signboard designs that grab attention and drive foot traffic.',
     gradient: 'from-red-500 to-orange-500',
   },
-  {
-    icon: Globe,
-    title: 'Social Media',
-    description: 'Building engaged communities and amplifying your brand voice across platforms.',
-    gradient: 'from-indigo-500 to-blue-500',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Strategy & Consulting',
-    description: 'Expert guidance to align your marketing efforts with business objectives.',
-    gradient: 'from-amber-500 to-orange-500',
-  },
+  // {
+  //   icon: Globe,
+  //   title: 'Social Media',
+  //   description: 'Building engaged communities and amplifying your brand voice across platforms.',
+  //   gradient: 'from-indigo-500 to-blue-500',
+  // },
+  // {
+  //   icon: Lightbulb,
+  //   title: 'Strategy & Consulting',
+  //   description: 'Expert guidance to align your marketing efforts with business objectives.',
+  //   gradient: 'from-amber-500 to-orange-500',
+  // },
 ];
 
 export function Services() {
@@ -62,7 +62,7 @@ export function Services() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
