@@ -55,7 +55,7 @@ export function Navigation() {
             <img
               src={theme === 'dark' ? '/logo_white.png' : '/logo_black.png'}
               alt="Talent Advertising Logo"
-              className="h-12 w-full"
+              className="h-10 w-auto max-w-[140px] sm:h-12 sm:max-w-[180px]"
               draggable={false}
             />
           </motion.div>
