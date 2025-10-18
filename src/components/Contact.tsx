@@ -10,8 +10,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'hello@creative.agency',
-    link: 'mailto:hello@creative.agency',
+    value: 'talent.kochi@gmail.com',
+    link: 'mailto:talent.kochi@gmail.com',
   },
   {
     icon: Phone,

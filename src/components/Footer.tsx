@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
 
 const footerLinks = {
   Company: ['About Us', 'Our Team', 'Careers', 'Press'],
-  Services: ['Branding', 'Marketing', 'Advertising', 'Consulting'],
+  Services: ['Flex Printing', 'Signboard Advertising'],
   Resources: ['Blog', 'Case Studies', 'FAQs', 'Support'],
   Legal: ['Privacy Policy', 'Terms of Service', 'Cookie Policy'],
 };
@@ -65,7 +65,7 @@ export function Footer() {
                 {links.map((link) => (
                   <li key={link}>
                     <a
-                      href="#"
+                      href="#services"
                       className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                     >
                       {link}
